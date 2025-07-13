@@ -19,7 +19,26 @@
   Analyze Sentiment
 </button>
 
+<!-- Spinner -->
+<div id="loadingSpinner" class="d-none text-center my-2">
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
 <div id="result" class="text-center fw-bold fs-5"></div>
+
+<!-- Copy Button -->
+<button id="copyBtn" class="btn btn-secondary w-100 d-none mb-2">
+  Copy Result
+</button>
+
+<h5>History</h5>
+<ul id="historyList" class="list-group mb-2"></ul>
+
+<button id="clearHistoryBtn" class="btn btn-danger w-100 mb-2">
+  Clear History
+</button>
 
 <script src="popup.js"></script>
 </body>
