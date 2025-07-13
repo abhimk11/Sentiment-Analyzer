@@ -62,6 +62,3 @@ pom.xml
 **Request Example:**
 ```json
 { "sentiment": "This is a great product!" }
-
-**Response Example:**
-{ "sentiment": "Positive" }
