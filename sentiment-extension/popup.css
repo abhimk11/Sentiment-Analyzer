@@ -1,0 +1,12 @@
+body {
+    width: 300px;
+    background-color: #f8f9fa;
+}
+
+textarea {
+    resize: none;
+}
+
+#result {
+    margin-top: 10px;
+}
