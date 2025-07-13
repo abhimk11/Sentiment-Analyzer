@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Sentiment Analyzer",
+  "version": "1.0",
+  "description": "Analyze sentiment of product reviews",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+  "activeTab",
+  "scripting",
+  "http://localhost/*"
+],
+"host_permissions": [
+  "http://localhost/*"
+]
+}
